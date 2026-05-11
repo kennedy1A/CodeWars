@@ -1,9 +1,5 @@
 function getAverage(marks){
-  let total = 0;
-  for (let i=0; i < marks.length; i++) 
-  {
-  total+= marks[i]/marks.length}
-  return Math.floor(total)
-}
+  return Math.floor(marks.reduce((acc,curr) => acc + curr,0)/marks.length)
+  }
 ​
 ​
