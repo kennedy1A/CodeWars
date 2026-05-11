@@ -3,4 +3,3 @@ function squareArea(A) {
   return a = s*s;
 ​
   }
-​
