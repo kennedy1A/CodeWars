@@ -1,13 +1,13 @@
-function sum(numbers) {
-  if (numbers.length === 0) {
-    return 0;
+function sum(numbers){
+  let total =0
+    if (numbers.length === 0){
+    return 0
+      }
+  for(let i=0; i < numbers.length; i++){
+    total += numbers[i]
   }
-​
-  let total = 0;
-​
-  for (let i = 0; i < numbers.length; i++) {
-    total += numbers[i];
-  }
-​
   return total;
-}
+  }
+​
+​
+  
